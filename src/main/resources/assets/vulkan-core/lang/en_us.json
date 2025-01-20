@@ -3,5 +3,11 @@
 
   "block.vulkan-core.null_block": "Null Block",
 
+  "block.vulkan-core.pokeball_crate_block": "Pokeball Crate Block",
+  "block.vulkan-core.greatball_crate_block": "Greatball Crate Block",
+  "block.vulkan-core.ultraball_crate_block": "Ultraball Crate Block",
+  "block.vulkan-core.luxuryball_crate_block": "Luxuryball Crate Block",
+  "block.vulkan-core.masterball_crate_block": "Masterball Crate Block",
+
   "itemgroup.vulkan-core.vulkan_core_group": "Vulkan Core Group"
 }
