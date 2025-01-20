@@ -17,8 +17,6 @@ public class VulkanCore implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("/////////////// INITIALIZING VULKAN CORE \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
-
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.NULL_BLOCK, RenderLayer.getCutout());
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
