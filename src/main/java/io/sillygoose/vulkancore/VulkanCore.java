@@ -1,8 +1,12 @@
 package io.sillygoose.vulkancore;
 
+import io.sillygoose.vulkancore.block.ModBlocks;
+import io.sillygoose.vulkancore.item.ModItemGroups;
 import io.sillygoose.vulkancore.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.minecraft.client.render.RenderLayer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,6 +17,10 @@ public class VulkanCore implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("/////////////// INITIALIZING VULKAN CORE \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
+
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.NULL_BLOCK, RenderLayer.getCutout());
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

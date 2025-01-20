@@ -16,7 +16,7 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        VulkanCore.LOGGER.info("Registering Mod items for " + VulkanCore.MOD_ID);
+        VulkanCore.LOGGER.info("/////////////// INITIALIZING VULKAN CORE ITEM \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(NULL_ITEM);

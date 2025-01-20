@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "vulkan-core:block/null_block"
+    }
+  }
+}

@@ -1,3 +1,7 @@
 {
-  "item.vulkan-core.null-item": "Null Item"
+  "item.vulkan-core.null_item": "Null Item",
+
+  "block.vulkan-core.null_block": "Null Block",
+
+  "itemgroup.vulkan-core.vulkan_core_group": "Vulkan Core Group"
 }
