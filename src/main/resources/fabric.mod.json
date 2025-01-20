@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "vulkan-core",
+	"version": "${version}",
+	"name": "Vulkan Core",
+	"description": "Vulkan Core for the Cobblemon Vulkan Server",
+	"authors": [
+		"sillygoose"
+	],
+	"contact": {
+		"discord": "https://discord.gg/SnK6s7AgKz",
+		"source": "github"
+	},
+	"license": "MIT",
+	"icon": "assets/vulkan-core/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.sillygoose.vulkancore.VulkanCore"
+		],
+		"fabric-datagen": [
+			"io.sillygoose.vulkancore.VulkanCoreDataGenerator"
+		],
+		"client": [
+			"io.sillygoose.vulkancore.VulkanCoreClient"
+		]
+	},
+	"mixins": [
+		"vulkan-core.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
