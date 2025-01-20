@@ -18,6 +18,11 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.NULL_ITEM);
                         entries.add(ModBlocks.NULL_BLOCK);
+                        entries.add(ModBlocks.POKEBALL_CRATE_BLOCK);
+                        entries.add(ModBlocks.GREATBALL_CRATE_BLOCK);
+                        entries.add(ModBlocks.ULTRABALL_CRATE_BLOCK);
+                        entries.add(ModBlocks.LUXURYBALL_CRATE_BLOCK);
+                        entries.add(ModBlocks.MASTERBALL_CRATE_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {
