@@ -18,8 +18,8 @@ public class ModItems {
     public static void registerModItems() {
         VulkanCore.LOGGER.info("/////////////// INITIALIZING VULKAN CORE ITEM \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(NULL_ITEM);
-        });
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+//            entries.add(NULL_ITEM);
+//        });
     }
 }
