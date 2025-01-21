@@ -23,6 +23,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ULTRABALL_CRATE_BLOCK);
                         entries.add(ModBlocks.LUXURYBALL_CRATE_BLOCK);
                         entries.add(ModBlocks.MASTERBALL_CRATE_BLOCK);
+                        entries.add(ModBlocks.VOTE_CRATE_BLOCK);
+                        entries.add(ModBlocks.VOTE_CRATE_BLOCK_TOP);
+                        entries.add(ModBlocks.COSMIC_CRATE_BLOCK);
+                        entries.add(ModBlocks.COSMIC_CRATE_BLOCK_TOP);
+                        entries.add(ModBlocks.SHINY_CRATE_BLOCK);
+                        entries.add(ModBlocks.SHINY_CRATE_BLOCK_TOP);
                     }).build());
 
     public static void registerItemGroups() {

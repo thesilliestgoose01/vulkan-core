@@ -31,6 +31,24 @@ public class ModBlocks {
     public static final Block MASTERBALL_CRATE_BLOCK = registerBlock("masterball_crate_block",
             new CrateBlock(AbstractBlock.Settings.create().nonOpaque()));
 
+    public static final Block VOTE_CRATE_BLOCK = registerBlock("vote_crate_block",
+            new CrateBlock(AbstractBlock.Settings.create().nonOpaque()));
+
+    public static final Block VOTE_CRATE_BLOCK_TOP = registerBlock("vote_crate_block_top",
+            new CrateBlock(AbstractBlock.Settings.create().nonOpaque()));
+
+    public static final Block COSMIC_CRATE_BLOCK = registerBlock("cosmic_crate_block",
+            new CrateBlock(AbstractBlock.Settings.create().nonOpaque()));
+
+    public static final Block COSMIC_CRATE_BLOCK_TOP = registerBlock("cosmic_crate_block_top",
+            new CrateBlock(AbstractBlock.Settings.create().nonOpaque()));
+
+    public static final Block SHINY_CRATE_BLOCK = registerBlock("shiny_crate_block",
+            new CrateBlock(AbstractBlock.Settings.create().nonOpaque()));
+
+    public static final Block SHINY_CRATE_BLOCK_TOP = registerBlock("shiny_crate_block_top",
+            new CrateBlock(AbstractBlock.Settings.create().nonOpaque()));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(VulkanCore.MOD_ID, name), block);
