@@ -9,5 +9,12 @@
   "block.vulkan-core.luxuryball_crate_block": "Luxuryball Crate Block",
   "block.vulkan-core.masterball_crate_block": "Masterball Crate Block",
 
+  "block.vulkan-core.cosmic_crate_block": "Cosmic Crate Block Bottom",
+  "block.vulkan-core.cosmic_crate_block_top": "Cosmic Crate Top",
+  "block.vulkan-core.shiny_crate_block": "Shiny Crate Block Bottom",
+  "block.vulkan-core.shiny_crate_block_top": "Shiny Crate Top",
+  "block.vulkan-core.vote_crate_block": "Vote Crate Block Bottom",
+  "block.vulkan-core.vote_crate_block_top": "Vote Crate Top",
+
   "itemgroup.vulkan-core.vulkan_core_group": "Vulkan Core Group"
 }
